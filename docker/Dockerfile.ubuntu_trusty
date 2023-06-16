@@ -1,5 +1,5 @@
 # Build time
-FROM ubuntu:trusty as build
+FROM ubuntu:trusty-20190515 as build
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
