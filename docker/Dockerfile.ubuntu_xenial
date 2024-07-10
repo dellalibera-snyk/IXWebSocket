@@ -1,5 +1,5 @@
 # Build time
-FROM ubuntu:xenial as build
+FROM ubuntu:xenial-20201014 as build
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
